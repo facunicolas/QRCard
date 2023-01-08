@@ -31,25 +31,25 @@ body {
     width: 100%;
 }
 
-h2, h4 {
+h1, h2 {
     padding: 1rem;
 }
 
-h2 {
+h1 {
     font-size: 22px;
     font-weight: 700;
     margin-top: 5px;
     text-align: center;
 }
 
-h4 {
+h2 {
     color: hsl(220, 15%, 55%);
     font-size: 15px;
     font-weight: 400;
     text-align: center;
 }
 
-a, .attribution {
+a, p {
     color: hsl(228, 45%, 44%);
     font-size: 11px;
     text-align: center;
