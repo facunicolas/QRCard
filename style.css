@@ -57,6 +57,10 @@ a, p {
 
 @media (min-width: 375px) {
 
+.qrCard {
+    margin-top: 4rem;
+}
+
 body {
     align-items: center;
     display: flex;
