@@ -31,18 +31,28 @@ body {
     width: 100%;
 }
 
-h1, h2 {
+.sr-only {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+
+h2, h3 {
     padding: 1rem;
 }
 
-h1 {
+h2 {
     font-size: 22px;
     font-weight: 700;
     margin-top: 5px;
     text-align: center;
 }
 
-h2 {
+h3 {
     color: hsl(220, 15%, 55%);
     font-size: 15px;
     font-weight: 400;
